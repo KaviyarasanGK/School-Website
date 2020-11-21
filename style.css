@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-size: cover;
+    background-position: center;
+    
+    font-family: sans-serif;
+}
+
+    
+
+.menu{
+    background: #fff;
+    text-align: center;
+   
+}
+
+
+
+.menu h1{
+    font-size: 40px;
+    color:rgb(48, 230, 48) ;
+    text-align: center;
+}
+.picture{
+    height: 125px;
+    width: 200px;
+    float: left;
+    border-color: white;
+    border-radius: 30px;
+    border-style: solid;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(108, 248, 108);
+    cursor: pointer;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .menu ul li:hover{
+    background: rgb(108, 248, 108);
+    border-radius: 3px;
+}
+.name{
+    margin: 0px;
+    
+}
+.home{
+    margin-left: 150px;
+    width: 50%;
+    border: none;
+    padding: 10px;
+
+}
+.heading{
+    display: flex;
+}
+.para{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+}
+.Achievements{
+    display: inline-block;
+}
+.ach{
+    margin-left: 50px;
+    border: none;
+    padding: 10px;
+    
+}
+.Achievements h1{
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 30px;
+    font-size: 50px;
+    font-style: normal;
+    color:black;
+
+}
+.Gallery .Gheading h2{
+    margin-left: 100px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    color: black;
+
+}
+.Gallery .content{
+    display: flex;
+    margin: 10px;
+    
+}
+.Gallery{
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+.Gallery .content .workbx{
+    padding: 20px;
+}
+
+.Login h2{
+    margin-left: 200px;
+    margin-right: 300px;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    color:black;
+    padding-top: 20px;
+
+}
+.Login{
+    background-color:rgb(108, 248, 108);
+    margin: 40px;
+    width: 500px;
+    margin-left: 500px;
+}
+.Login .fill{
+    width:500px;
+    margin: 20px;
+}
+.Login .fill p{
+    text-align: start;
+    
+    font-weight: bold;
+}
+.Login .fill input{
+    
+    text-align: start;
+    margin-bottom: 20px;
+}
+.Login .fill input[type="text"], input[type="email"],  input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: white;
+    width: 450px;
+    margin-top: 5px;
+    border-radius: 7px;
+    padding: 5px;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    
+}
+.Login .fill input[type="submit"]{
+    border: none;
+    padding: 15px;
+    width: 200px;
+    outline: none;
+    height: 50px;
+    background:white;
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+    margin-left: 120px;
+    margin-top: 30px;
+
+    
+    
+}
+.Login .fill input[type="submit"]:hover{
+    cursor: pointer;
+    background: blue;
+    color: ivory;
+}
+.Login .fill a{
+    
+    font-size: 20px;
+    line-height: 20px;
+    color: mediumblue;
+}
+.Login .fill a:hover{
+    color:indigo;
+}
+.about{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(54, 54, 54);
+}
+.Contact{
+    margin: 0;
+    margin-left: 160px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.Contact .content h2{
+    margin-left: 200px;
+    margin-right: 400px;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+
+}
+.Contact .content p{
+    font-weight: 300;
+    color:white;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+
+}
+.ContactForm{
+    width: 40%;
+    padding: 40px;
+    background: mintcream;
+}
+.ContactForm h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+.ContactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.ContactForm .inputBox input, .ContactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid ;
+    outline: none;
+    resize: none;
+
+}
+.ContactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+    
+
+}
+.ContactForm .inputBox input:focus ~ span,
+.ContactForm .inputBox input:valid ~ span,
+.ContactForm .inputBox textarea:focus ~ span,
+.ContactForm .inputBox textarea:valid ~ span
+{
+    color: red;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+.ContactForm .inputBox input[type="submit"]{
+    width: 100px;
+    background: blue;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+
+
+
+
+
+
